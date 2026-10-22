@@ -1,0 +1,962 @@
+{
+ "n": 97,
+ "platforms": {
+  "ielts_writing_practice": {
+   "all": {
+    "n": 97,
+    "mae": 0.5309278350515464,
+    "bias": -0.27319587628865977,
+    "exact": 28,
+    "within_0_5": 72,
+    "within_1_0": 91,
+    "more_than_1_0": 6
+   },
+   "task_1": {
+    "n": 51,
+    "mae": 0.4215686274509804,
+    "bias": -0.029411764705882353,
+    "exact": 16,
+    "within_0_5": 43,
+    "within_1_0": 51,
+    "more_than_1_0": 0
+   },
+   "task_2": {
+    "n": 46,
+    "mae": 0.6521739130434783,
+    "bias": -0.5434782608695652,
+    "exact": 12,
+    "within_0_5": 29,
+    "within_1_0": 40,
+    "more_than_1_0": 6
+   },
+   "academic": {
+    "n": 54,
+    "mae": 0.5277777777777778,
+    "bias": -0.25,
+    "exact": 18,
+    "within_0_5": 38,
+    "within_1_0": 51,
+    "more_than_1_0": 3
+   },
+   "general_training": {
+    "n": 43,
+    "mae": 0.5348837209302325,
+    "bias": -0.3023255813953488,
+    "exact": 10,
+    "within_0_5": 34,
+    "within_1_0": 40,
+    "more_than_1_0": 3
+   },
+   "recent_cambridge_20_21": {
+    "n": 32,
+    "mae": 0.546875,
+    "bias": -0.390625,
+    "exact": 8,
+    "within_0_5": 23,
+    "within_1_0": 30,
+    "more_than_1_0": 2
+   },
+   "by_source": {
+    "Cambridge IELTS 18 Academic": {
+     "n": 2,
+     "mae": 0.25,
+     "bias": 0.25,
+     "exact": 1,
+     "within_0_5": 2,
+     "within_1_0": 2,
+     "more_than_1_0": 0
+    },
+    "Cambridge IELTS 19 Academic": {
+     "n": 8,
+     "mae": 0.375,
+     "bias": -0.375,
+     "exact": 5,
+     "within_0_5": 7,
+     "within_1_0": 7,
+     "more_than_1_0": 1
+    },
+    "Cambridge IELTS 19 General Training": {
+     "n": 8,
+     "mae": 0.4375,
+     "bias": -0.1875,
+     "exact": 2,
+     "within_0_5": 7,
+     "within_1_0": 8,
+     "more_than_1_0": 0
+    },
+    "Cambridge IELTS 20 Academic": {
+     "n": 8,
+     "mae": 0.5,
+     "bias": -0.375,
+     "exact": 3,
+     "within_0_5": 6,
+     "within_1_0": 7,
+     "more_than_1_0": 1
+    },
+    "Cambridge IELTS 20 General Training": {
+     "n": 8,
+     "mae": 0.5625,
+     "bias": -0.4375,
+     "exact": 2,
+     "within_0_5": 6,
+     "within_1_0": 7,
+     "more_than_1_0": 1
+    },
+    "Cambridge IELTS 21 Academic": {
+     "n": 8,
+     "mae": 0.625,
+     "bias": -0.5,
+     "exact": 1,
+     "within_0_5": 5,
+     "within_1_0": 8,
+     "more_than_1_0": 0
+    },
+    "Cambridge IELTS 21 General Training": {
+     "n": 8,
+     "mae": 0.5,
+     "bias": -0.25,
+     "exact": 2,
+     "within_0_5": 6,
+     "within_1_0": 8,
+     "more_than_1_0": 0
+    },
+    "IELTS.org Academic Writing sample tasks (2023)": {
+     "n": 12,
+     "mae": 0.7083333333333334,
+     "bias": -0.5416666666666666,
+     "exact": 1,
+     "within_0_5": 8,
+     "within_1_0": 11,
+     "more_than_1_0": 1
+    },
+    "IELTS.org General Training Writing sample tasks (2023)": {
+     "n": 11,
+     "mae": 0.7272727272727273,
+     "bias": -0.45454545454545453,
+     "exact": 2,
+     "within_0_5": 7,
+     "within_1_0": 9,
+     "more_than_1_0": 2
+    },
+    "IELTS.org computer-delivered Academic Writing samples": {
+     "n": 4,
+     "mae": 0.5,
+     "bias": 0.0,
+     "exact": 2,
+     "within_0_5": 2,
+     "within_1_0": 4,
+     "more_than_1_0": 0
+    },
+    "Official IELTS Practice Materials Volume 1": {
+     "n": 10,
+     "mae": 0.5,
+     "bias": 0.1,
+     "exact": 3,
+     "within_0_5": 7,
+     "within_1_0": 10,
+     "more_than_1_0": 0
+    },
+    "Official IELTS Practice Materials Volume 2": {
+     "n": 10,
+     "mae": 0.35,
+     "bias": 0.05,
+     "exact": 4,
+     "within_0_5": 9,
+     "within_1_0": 10,
+     "more_than_1_0": 0
+    }
+   }
+  },
+  "ieltswritingchecker_org": {
+   "all": {
+    "n": 97,
+    "mae": 0.5670103092783505,
+    "bias": -0.38144329896907214,
+    "exact": 31,
+    "within_0_5": 68,
+    "within_1_0": 84,
+    "more_than_1_0": 13
+   },
+   "task_1": {
+    "n": 51,
+    "mae": 0.45098039215686275,
+    "bias": -0.2549019607843137,
+    "exact": 18,
+    "within_0_5": 42,
+    "within_1_0": 48,
+    "more_than_1_0": 3
+   },
+   "task_2": {
+    "n": 46,
+    "mae": 0.6956521739130435,
+    "bias": -0.5217391304347826,
+    "exact": 13,
+    "within_0_5": 26,
+    "within_1_0": 36,
+    "more_than_1_0": 10
+   },
+   "academic": {
+    "n": 54,
+    "mae": 0.6111111111111112,
+    "bias": -0.42592592592592593,
+    "exact": 16,
+    "within_0_5": 35,
+    "within_1_0": 46,
+    "more_than_1_0": 8
+   },
+   "general_training": {
+    "n": 43,
+    "mae": 0.5116279069767442,
+    "bias": -0.32558139534883723,
+    "exact": 15,
+    "within_0_5": 33,
+    "within_1_0": 38,
+    "more_than_1_0": 5
+   },
+   "recent_cambridge_20_21": {
+    "n": 32,
+    "mae": 0.6875,
+    "bias": -0.5625,
+    "exact": 6,
+    "within_0_5": 20,
+    "within_1_0": 26,
+    "more_than_1_0": 6
+   },
+   "by_source": {
+    "Cambridge IELTS 18 Academic": {
+     "n": 2,
+     "mae": 0.25,
+     "bias": -0.25,
+     "exact": 1,
+     "within_0_5": 2,
+     "within_1_0": 2,
+     "more_than_1_0": 0
+    },
+    "Cambridge IELTS 19 Academic": {
+     "n": 8,
+     "mae": 0.375,
+     "bias": -0.375,
+     "exact": 4,
+     "within_0_5": 6,
+     "within_1_0": 8,
+     "more_than_1_0": 0
+    },
+    "Cambridge IELTS 19 General Training": {
+     "n": 8,
+     "mae": 0.3125,
+     "bias": -0.1875,
+     "exact": 3,
+     "within_0_5": 8,
+     "within_1_0": 8,
+     "more_than_1_0": 0
+    },
+    "Cambridge IELTS 20 Academic": {
+     "n": 8,
+     "mae": 0.5625,
+     "bias": -0.5625,
+     "exact": 1,
+     "within_0_5": 7,
+     "within_1_0": 7,
+     "more_than_1_0": 1
+    },
+    "Cambridge IELTS 20 General Training": {
+     "n": 8,
+     "mae": 0.5,
+     "bias": -0.25,
+     "exact": 3,
+     "within_0_5": 6,
+     "within_1_0": 7,
+     "more_than_1_0": 1
+    },
+    "Cambridge IELTS 21 Academic": {
+     "n": 8,
+     "mae": 0.9375,
+     "bias": -0.9375,
+     "exact": 1,
+     "within_0_5": 2,
+     "within_1_0": 6,
+     "more_than_1_0": 2
+    },
+    "Cambridge IELTS 21 General Training": {
+     "n": 8,
+     "mae": 0.75,
+     "bias": -0.5,
+     "exact": 1,
+     "within_0_5": 5,
+     "within_1_0": 6,
+     "more_than_1_0": 2
+    },
+    "IELTS.org Academic Writing sample tasks (2023)": {
+     "n": 12,
+     "mae": 0.75,
+     "bias": -0.75,
+     "exact": 3,
+     "within_0_5": 7,
+     "within_1_0": 9,
+     "more_than_1_0": 3
+    },
+    "IELTS.org General Training Writing sample tasks (2023)": {
+     "n": 11,
+     "mae": 0.7727272727272727,
+     "bias": -0.5909090909090909,
+     "exact": 2,
+     "within_0_5": 6,
+     "within_1_0": 9,
+     "more_than_1_0": 2
+    },
+    "IELTS.org computer-delivered Academic Writing samples": {
+     "n": 4,
+     "mae": 0.625,
+     "bias": -0.125,
+     "exact": 2,
+     "within_0_5": 2,
+     "within_1_0": 3,
+     "more_than_1_0": 1
+    },
+    "Official IELTS Practice Materials Volume 1": {
+     "n": 10,
+     "mae": 0.25,
+     "bias": 0.05,
+     "exact": 7,
+     "within_0_5": 8,
+     "within_1_0": 10,
+     "more_than_1_0": 0
+    },
+    "Official IELTS Practice Materials Volume 2": {
+     "n": 10,
+     "mae": 0.45,
+     "bias": 0.15,
+     "exact": 3,
+     "within_0_5": 9,
+     "within_1_0": 9,
+     "more_than_1_0": 1
+    }
+   }
+  },
+  "chatgpt": {
+   "all": {
+    "n": 97,
+    "mae": 0.8762886597938144,
+    "bias": -0.845360824742268,
+    "exact": 11,
+    "within_0_5": 45,
+    "within_1_0": 74,
+    "more_than_1_0": 23
+   },
+   "task_1": {
+    "n": 51,
+    "mae": 0.7745098039215687,
+    "bias": -0.7549019607843137,
+    "exact": 5,
+    "within_0_5": 27,
+    "within_1_0": 44,
+    "more_than_1_0": 7
+   },
+   "task_2": {
+    "n": 46,
+    "mae": 0.9891304347826086,
+    "bias": -0.9456521739130435,
+    "exact": 6,
+    "within_0_5": 18,
+    "within_1_0": 30,
+    "more_than_1_0": 16
+   },
+   "academic": {
+    "n": 54,
+    "mae": 0.8796296296296297,
+    "bias": -0.8425925925925926,
+    "exact": 6,
+    "within_0_5": 27,
+    "within_1_0": 38,
+    "more_than_1_0": 16
+   },
+   "general_training": {
+    "n": 43,
+    "mae": 0.872093023255814,
+    "bias": -0.8488372093023255,
+    "exact": 5,
+    "within_0_5": 18,
+    "within_1_0": 36,
+    "more_than_1_0": 7
+   },
+   "recent_cambridge_20_21": {
+    "n": 32,
+    "mae": 0.921875,
+    "bias": -0.921875,
+    "exact": 2,
+    "within_0_5": 14,
+    "within_1_0": 23,
+    "more_than_1_0": 9
+   },
+   "by_source": {
+    "Cambridge IELTS 18 Academic": {
+     "n": 2,
+     "mae": 1.0,
+     "bias": -1.0,
+     "exact": 0,
+     "within_0_5": 0,
+     "within_1_0": 2,
+     "more_than_1_0": 0
+    },
+    "Cambridge IELTS 19 Academic": {
+     "n": 8,
+     "mae": 0.8125,
+     "bias": -0.8125,
+     "exact": 1,
+     "within_0_5": 3,
+     "within_1_0": 7,
+     "more_than_1_0": 1
+    },
+    "Cambridge IELTS 19 General Training": {
+     "n": 8,
+     "mae": 0.8125,
+     "bias": -0.8125,
+     "exact": 1,
+     "within_0_5": 3,
+     "within_1_0": 7,
+     "more_than_1_0": 1
+    },
+    "Cambridge IELTS 20 Academic": {
+     "n": 8,
+     "mae": 0.9375,
+     "bias": -0.9375,
+     "exact": 0,
+     "within_0_5": 4,
+     "within_1_0": 5,
+     "more_than_1_0": 3
+    },
+    "Cambridge IELTS 20 General Training": {
+     "n": 8,
+     "mae": 0.75,
+     "bias": -0.75,
+     "exact": 0,
+     "within_0_5": 6,
+     "within_1_0": 7,
+     "more_than_1_0": 1
+    },
+    "Cambridge IELTS 21 Academic": {
+     "n": 8,
+     "mae": 1.125,
+     "bias": -1.125,
+     "exact": 0,
+     "within_0_5": 2,
+     "within_1_0": 5,
+     "more_than_1_0": 3
+    },
+    "Cambridge IELTS 21 General Training": {
+     "n": 8,
+     "mae": 0.875,
+     "bias": -0.875,
+     "exact": 2,
+     "within_0_5": 2,
+     "within_1_0": 6,
+     "more_than_1_0": 2
+    },
+    "IELTS.org Academic Writing sample tasks (2023)": {
+     "n": 12,
+     "mae": 1.2083333333333333,
+     "bias": -1.2083333333333333,
+     "exact": 0,
+     "within_0_5": 5,
+     "within_1_0": 5,
+     "more_than_1_0": 7
+    },
+    "IELTS.org General Training Writing sample tasks (2023)": {
+     "n": 11,
+     "mae": 1.0909090909090908,
+     "bias": -1.0,
+     "exact": 1,
+     "within_0_5": 4,
+     "within_1_0": 8,
+     "more_than_1_0": 3
+    },
+    "IELTS.org computer-delivered Academic Writing samples": {
+     "n": 4,
+     "mae": 0.625,
+     "bias": -0.625,
+     "exact": 1,
+     "within_0_5": 3,
+     "within_1_0": 3,
+     "more_than_1_0": 1
+    },
+    "Official IELTS Practice Materials Volume 1": {
+     "n": 10,
+     "mae": 0.6,
+     "bias": -0.5,
+     "exact": 2,
+     "within_0_5": 7,
+     "within_1_0": 9,
+     "more_than_1_0": 1
+    },
+    "Official IELTS Practice Materials Volume 2": {
+     "n": 10,
+     "mae": 0.55,
+     "bias": -0.45,
+     "exact": 3,
+     "within_0_5": 6,
+     "within_1_0": 10,
+     "more_than_1_0": 0
+    }
+   }
+  },
+  "engnovate": {
+   "all": {
+    "n": 97,
+    "mae": 0.9381443298969072,
+    "bias": -0.8556701030927835,
+    "exact": 11,
+    "within_0_5": 38,
+    "within_1_0": 71,
+    "more_than_1_0": 26
+   },
+   "task_1": {
+    "n": 51,
+    "mae": 0.7549019607843137,
+    "bias": -0.6764705882352942,
+    "exact": 9,
+    "within_0_5": 26,
+    "within_1_0": 44,
+    "more_than_1_0": 7
+   },
+   "task_2": {
+    "n": 46,
+    "mae": 1.141304347826087,
+    "bias": -1.0543478260869565,
+    "exact": 2,
+    "within_0_5": 12,
+    "within_1_0": 27,
+    "more_than_1_0": 19
+   },
+   "academic": {
+    "n": 54,
+    "mae": 0.8703703703703703,
+    "bias": -0.7407407407407407,
+    "exact": 8,
+    "within_0_5": 23,
+    "within_1_0": 43,
+    "more_than_1_0": 11
+   },
+   "general_training": {
+    "n": 43,
+    "mae": 1.0232558139534884,
+    "bias": -1.0,
+    "exact": 3,
+    "within_0_5": 15,
+    "within_1_0": 28,
+    "more_than_1_0": 15
+   },
+   "recent_cambridge_20_21": {
+    "n": 32,
+    "mae": 1.015625,
+    "bias": -0.890625,
+    "exact": 2,
+    "within_0_5": 13,
+    "within_1_0": 20,
+    "more_than_1_0": 12
+   },
+   "by_source": {
+    "Cambridge IELTS 18 Academic": {
+     "n": 2,
+     "mae": 0.0,
+     "bias": 0.0,
+     "exact": 2,
+     "within_0_5": 2,
+     "within_1_0": 2,
+     "more_than_1_0": 0
+    },
+    "Cambridge IELTS 19 Academic": {
+     "n": 8,
+     "mae": 0.6875,
+     "bias": -0.5625,
+     "exact": 1,
+     "within_0_5": 5,
+     "within_1_0": 7,
+     "more_than_1_0": 1
+    },
+    "Cambridge IELTS 19 General Training": {
+     "n": 8,
+     "mae": 1.125,
+     "bias": -1.125,
+     "exact": 0,
+     "within_0_5": 1,
+     "within_1_0": 6,
+     "more_than_1_0": 2
+    },
+    "Cambridge IELTS 20 Academic": {
+     "n": 8,
+     "mae": 0.875,
+     "bias": -0.875,
+     "exact": 1,
+     "within_0_5": 3,
+     "within_1_0": 6,
+     "more_than_1_0": 2
+    },
+    "Cambridge IELTS 20 General Training": {
+     "n": 8,
+     "mae": 0.9375,
+     "bias": -0.9375,
+     "exact": 0,
+     "within_0_5": 3,
+     "within_1_0": 6,
+     "more_than_1_0": 2
+    },
+    "Cambridge IELTS 21 Academic": {
+     "n": 8,
+     "mae": 1.1875,
+     "bias": -0.8125,
+     "exact": 0,
+     "within_0_5": 3,
+     "within_1_0": 4,
+     "more_than_1_0": 4
+    },
+    "Cambridge IELTS 21 General Training": {
+     "n": 8,
+     "mae": 1.0625,
+     "bias": -0.9375,
+     "exact": 1,
+     "within_0_5": 4,
+     "within_1_0": 4,
+     "more_than_1_0": 4
+    },
+    "IELTS.org Academic Writing sample tasks (2023)": {
+     "n": 12,
+     "mae": 1.1666666666666667,
+     "bias": -1.1666666666666667,
+     "exact": 2,
+     "within_0_5": 2,
+     "within_1_0": 8,
+     "more_than_1_0": 4
+    },
+    "IELTS.org General Training Writing sample tasks (2023)": {
+     "n": 11,
+     "mae": 1.1818181818181819,
+     "bias": -1.1818181818181819,
+     "exact": 1,
+     "within_0_5": 4,
+     "within_1_0": 4,
+     "more_than_1_0": 7
+    },
+    "IELTS.org computer-delivered Academic Writing samples": {
+     "n": 4,
+     "mae": 0.875,
+     "bias": -0.625,
+     "exact": 0,
+     "within_0_5": 1,
+     "within_1_0": 4,
+     "more_than_1_0": 0
+    },
+    "Official IELTS Practice Materials Volume 1": {
+     "n": 10,
+     "mae": 0.65,
+     "bias": -0.65,
+     "exact": 2,
+     "within_0_5": 5,
+     "within_1_0": 10,
+     "more_than_1_0": 0
+    },
+    "Official IELTS Practice Materials Volume 2": {
+     "n": 10,
+     "mae": 0.7,
+     "bias": -0.5,
+     "exact": 1,
+     "within_0_5": 5,
+     "within_1_0": 10,
+     "more_than_1_0": 0
+    }
+   }
+  },
+  "writing9": {
+   "all": {
+    "n": 97,
+    "mae": 1.7216494845360826,
+    "bias": -1.577319587628866,
+    "exact": 1,
+    "within_0_5": 19,
+    "within_1_0": 34,
+    "more_than_1_0": 63
+   },
+   "task_1": {
+    "n": 51,
+    "mae": 1.5098039215686274,
+    "bias": -1.2745098039215685,
+    "exact": 1,
+    "within_0_5": 13,
+    "within_1_0": 23,
+    "more_than_1_0": 28
+   },
+   "task_2": {
+    "n": 46,
+    "mae": 1.9565217391304348,
+    "bias": -1.9130434782608696,
+    "exact": 0,
+    "within_0_5": 6,
+    "within_1_0": 11,
+    "more_than_1_0": 35
+   },
+   "academic": {
+    "n": 54,
+    "mae": 1.7037037037037037,
+    "bias": -1.4814814814814814,
+    "exact": 1,
+    "within_0_5": 13,
+    "within_1_0": 22,
+    "more_than_1_0": 32
+   },
+   "general_training": {
+    "n": 43,
+    "mae": 1.744186046511628,
+    "bias": -1.697674418604651,
+    "exact": 0,
+    "within_0_5": 6,
+    "within_1_0": 12,
+    "more_than_1_0": 31
+   },
+   "recent_cambridge_20_21": {
+    "n": 32,
+    "mae": 2.046875,
+    "bias": -2.015625,
+    "exact": 0,
+    "within_0_5": 2,
+    "within_1_0": 5,
+    "more_than_1_0": 27
+   },
+   "by_source": {
+    "Cambridge IELTS 18 Academic": {
+     "n": 2,
+     "mae": 1.0,
+     "bias": -0.5,
+     "exact": 0,
+     "within_0_5": 1,
+     "within_1_0": 1,
+     "more_than_1_0": 1
+    },
+    "Cambridge IELTS 19 Academic": {
+     "n": 8,
+     "mae": 1.5625,
+     "bias": -1.3125,
+     "exact": 1,
+     "within_0_5": 1,
+     "within_1_0": 3,
+     "more_than_1_0": 5
+    },
+    "Cambridge IELTS 19 General Training": {
+     "n": 8,
+     "mae": 1.1875,
+     "bias": -1.1875,
+     "exact": 0,
+     "within_0_5": 2,
+     "within_1_0": 4,
+     "more_than_1_0": 4
+    },
+    "Cambridge IELTS 20 Academic": {
+     "n": 8,
+     "mae": 2.0625,
+     "bias": -2.0625,
+     "exact": 0,
+     "within_0_5": 1,
+     "within_1_0": 1,
+     "more_than_1_0": 7
+    },
+    "Cambridge IELTS 20 General Training": {
+     "n": 8,
+     "mae": 2.0,
+     "bias": -2.0,
+     "exact": 0,
+     "within_0_5": 0,
+     "within_1_0": 2,
+     "more_than_1_0": 6
+    },
+    "Cambridge IELTS 21 Academic": {
+     "n": 8,
+     "mae": 2.125,
+     "bias": -2.0,
+     "exact": 0,
+     "within_0_5": 1,
+     "within_1_0": 2,
+     "more_than_1_0": 6
+    },
+    "Cambridge IELTS 21 General Training": {
+     "n": 8,
+     "mae": 2.0,
+     "bias": -2.0,
+     "exact": 0,
+     "within_0_5": 0,
+     "within_1_0": 0,
+     "more_than_1_0": 8
+    },
+    "IELTS.org Academic Writing sample tasks (2023)": {
+     "n": 12,
+     "mae": 2.125,
+     "bias": -1.9583333333333333,
+     "exact": 0,
+     "within_0_5": 2,
+     "within_1_0": 4,
+     "more_than_1_0": 8
+    },
+    "IELTS.org General Training Writing sample tasks (2023)": {
+     "n": 11,
+     "mae": 2.0454545454545454,
+     "bias": -1.8636363636363635,
+     "exact": 0,
+     "within_0_5": 1,
+     "within_1_0": 3,
+     "more_than_1_0": 8
+    },
+    "IELTS.org computer-delivered Academic Writing samples": {
+     "n": 4,
+     "mae": 1.5,
+     "bias": -1.25,
+     "exact": 0,
+     "within_0_5": 2,
+     "within_1_0": 2,
+     "more_than_1_0": 2
+    },
+    "Official IELTS Practice Materials Volume 1": {
+     "n": 10,
+     "mae": 1.05,
+     "bias": -0.85,
+     "exact": 0,
+     "within_0_5": 5,
+     "within_1_0": 6,
+     "more_than_1_0": 4
+    },
+    "Official IELTS Practice Materials Volume 2": {
+     "n": 10,
+     "mae": 1.3,
+     "bias": -1.0,
+     "exact": 0,
+     "within_0_5": 3,
+     "within_1_0": 6,
+     "more_than_1_0": 4
+    }
+   }
+  }
+ },
+ "paired_mae_differences": [
+  {
+   "a": "ielts_writing_practice",
+   "b": "ieltswritingchecker_org",
+   "mae_difference": -0.03608247422680412,
+   "ci95": [
+    -0.11855670103092783,
+    0.04639175257731959
+   ],
+   "a_closer": 29,
+   "tie": 46,
+   "b_closer": 22
+  },
+  {
+   "a": "ielts_writing_practice",
+   "b": "chatgpt",
+   "mae_difference": -0.34536082474226804,
+   "ci95": [
+    -0.4381443298969072,
+    -0.25257731958762886
+   ],
+   "a_closer": 61,
+   "tie": 24,
+   "b_closer": 12
+  },
+  {
+   "a": "ielts_writing_practice",
+   "b": "engnovate",
+   "mae_difference": -0.4072164948453608,
+   "ci95": [
+    -0.520618556701031,
+    -0.29381443298969073
+   ],
+   "a_closer": 62,
+   "tie": 23,
+   "b_closer": 12
+  },
+  {
+   "a": "ielts_writing_practice",
+   "b": "writing9",
+   "mae_difference": -1.190721649484536,
+   "ci95": [
+    -1.3608247422680413,
+    -1.0257731958762886
+   ],
+   "a_closer": 83,
+   "tie": 10,
+   "b_closer": 4
+  },
+  {
+   "a": "ieltswritingchecker_org",
+   "b": "chatgpt",
+   "mae_difference": -0.30927835051546393,
+   "ci95": [
+    -0.39690721649484534,
+    -0.21649484536082475
+   ],
+   "a_closer": 54,
+   "tie": 34,
+   "b_closer": 9
+  },
+  {
+   "a": "ieltswritingchecker_org",
+   "b": "engnovate",
+   "mae_difference": -0.3711340206185567,
+   "ci95": [
+    -0.4793814432989691,
+    -0.26288659793814434
+   ],
+   "a_closer": 58,
+   "tie": 29,
+   "b_closer": 10
+  },
+  {
+   "a": "ieltswritingchecker_org",
+   "b": "writing9",
+   "mae_difference": -1.1546391752577319,
+   "ci95": [
+    -1.3298969072164948,
+    -0.9742268041237113
+   ],
+   "a_closer": 84,
+   "tie": 7,
+   "b_closer": 6
+  },
+  {
+   "a": "chatgpt",
+   "b": "engnovate",
+   "mae_difference": -0.061855670103092786,
+   "ci95": [
+    -0.15979381443298968,
+    0.03608247422680412
+   ],
+   "a_closer": 33,
+   "tie": 40,
+   "b_closer": 24
+  },
+  {
+   "a": "chatgpt",
+   "b": "writing9",
+   "mae_difference": -0.845360824742268,
+   "ci95": [
+    -1.0206185567010309,
+    -0.6752577319587629
+   ],
+   "a_closer": 75,
+   "tie": 14,
+   "b_closer": 8
+  },
+  {
+   "a": "engnovate",
+   "b": "writing9",
+   "mae_difference": -0.7835051546391752,
+   "ci95": [
+    -0.9742268041237113,
+    -0.6030927835051546
+   ],
+   "a_closer": 69,
+   "tie": 12,
+   "b_closer": 16
+  }
+ ],
+ "bootstrap": {
+  "iterations": 10000,
+  "seed": 20260830,
+  "method": "paired percentile"
+ }
+}
